@@ -1,20 +1,19 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-
 from decimal import *
 import math
 import sys
-
 
 getcontext().prec = 4096
 EULER = 0.5772156649015328606
 EPS = 1e-10
 
+
 if __name__ == '__main__':
     x = Decimal(input("Value of x? "))
 
-    if x == 0:
+    if x <= 0:
         print("Illegal value of x", file=sys.stderr)
         exit(1)
 

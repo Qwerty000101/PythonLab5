@@ -8,6 +8,7 @@ EULER = 0.5772156649015328606
 # Точность вычислений.
 EPS = 1e-10
 
+
 if __name__ == '__main__':
     x = float(input("Value of x? "))
     if x == 0:

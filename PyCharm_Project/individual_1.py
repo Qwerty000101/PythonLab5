@@ -3,6 +3,7 @@
 
 import sys
 
+
 if __name__ == '__main__':
     n = int(input("Введите номер дня недели: "))
     if n == 1:
