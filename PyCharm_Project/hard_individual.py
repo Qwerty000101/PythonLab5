@@ -21,10 +21,10 @@ if __name__ == '__main__':
     a = Decimal(1)
     n = Decimal(1)
 
-    while Decimal(math.fabs(a)) > EPS:
-        e0 = Decimal((-1)**n)
-        e1 = Decimal(x**(2*n))
-        e2 = Decimal(2*n)
+    while math.fabs(a) > EPS:
+        e0 = (-1)**n
+        e1 = x**(2*n)
+        e2 = 2*n
         e3 = Decimal(1)
         temp = 2*n
         while temp > 1:
